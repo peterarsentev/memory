@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:height="100dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="50dp"
+            android:textSize="30sp"
+            android:background="#FFB22222"
+            android:text="1"
+            android:onClick="answer"/>
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="#FF008000"
+            android:textSize="30sp"
+            android:text="2"
+            android:onClick="answer"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="100dp"
+            android:height="100dp"
+            android:textSize="16sp"
+            android:text="Start"
+            android:onClick="startEvent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="100dp"
+            android:height="100dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:background="#FF0000FF"
+            android:textSize="30sp"
+            android:text="3"
+            android:onClick="answer"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="100dp"
+            android:height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:background="#FFFFFACD"
+            android:textSize="30sp"
+            android:text="4"
+            android:onClick="answer"/>
+    </LinearLayout>
+</LinearLayout>
