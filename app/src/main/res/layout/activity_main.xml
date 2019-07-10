@@ -20,7 +20,7 @@
             android:layout_marginBottom="50dp"
             android:textSize="30sp"
             android:background="#FFB22222"
-            android:text="1"
+            android:text="@string/btn_1"
             android:onClick="answer"/>
 
 
@@ -34,7 +34,7 @@
             android:layout_marginBottom="50dp"
             android:background="#FF008000"
             android:textSize="30sp"
-            android:text="2"
+            android:text="@string/btn_2"
             android:onClick="answer"/>
     </LinearLayout>
 
@@ -51,7 +51,7 @@
             android:width="100dp"
             android:height="100dp"
             android:textSize="16sp"
-            android:text="Start"
+            android:text="@string/btn_start"
             android:onClick="startEvent"/>
 
     </LinearLayout>
@@ -72,7 +72,7 @@
             android:layout_marginTop="50dp"
             android:background="#FF0000FF"
             android:textSize="30sp"
-            android:text="3"
+            android:text="@string/btn_3"
             android:onClick="answer"/>
 
         <Button
@@ -86,7 +86,7 @@
             android:layout_marginTop="50dp"
             android:background="#FFFFFACD"
             android:textSize="30sp"
-            android:text="4"
+            android:text="@string/btn_4"
             android:onClick="answer"/>
     </LinearLayout>
 </LinearLayout>
